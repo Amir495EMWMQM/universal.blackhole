@@ -1,0 +1,256 @@
+body {
+    background-image: url('./IMG_8574.JPG'); /* مسیر تصویر تخت جمشید */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    direction: ltr;
+    margin: 0;
+    overflow-x: hidden;
+    }
+    
+    .header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    /* position: fixed; */
+    }
+    
+    .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    .navbar a {
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    }
+    
+    .navbar a:hover {
+    background-color: #ffd700;
+    color: #000;
+    }
+    
+    .logo-container {
+    display: flex;
+    align-items: center;
+    }
+    
+    .token-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    .main-content {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    }
+    
+    .hero {
+    background: linear-gradient(135deg, #ffd700 0%, #ffb900 100%);
+    color: #000;
+    padding: 50px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: fadeIn 1s ease-in-out;
+    }
+    
+    .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    }
+    
+    .hero p {
+    font-size: 1.5rem;
+    }
+    
+    @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+    }
+    
+    .product-showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+    padding: 20px;
+    }
+    
+    .image-container {
+    position: relative;
+    display: inline-block;
+    }
+    
+    .product-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+    .product-image:hover {
+    transform: scale(1.1);
+    }
+
+    
+    section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: slideIn 0.5s ease-in-out;
+    }
+    
+    section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    }
+    
+    section p, section ol {
+    font-size: 1.2rem;
+    }
+    
+    @keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+    }
+    
+    .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .social-icons { margin: 10px 0;
+    }
+    
+    .social-icons a {
+    display: inline-block
+    ;
+margin: 0 10px;
+}
+
+.social-icons img {
+width: 30px;
+height: 30px;
+transition: transform 0.3s ease-in-out;
+border-radius: 50%;
+}
+
+.social-icons img:hover {
+transform: scale(1.1);
+}
+
+/* @media screen and (max-width: 1024px) {
+    .navbar {
+    flex-direction: column;
+    }
+    
+    .navbar a {
+    padding: 10px;
+    }
+    }
+    
+    @media screen and (max-width: 768px) {
+    .navbar {
+    flex-direction: column;
+    }
+    
+    .navbar a {
+    padding: 10px;
+    }
+    
+    .tooltip {
+    max-width: 90%;
+    left: calc(100% + 10px);
+    }
+    
+    .main-content {
+    padding: 10px;
+    }
+    
+    section {
+    padding: 15px;
+    margin: 10px 0;
+    }
+    }
+    
+    @media screen and (max-width: 480px) {
+    .navbar {
+    flex-direction: column;
+    }
+    
+    .navbar a {
+    padding: 10px;
+    }
+    
+    .tooltip {
+    max-width: 90%;
+    left: calc(100% + 10px);
+    }
+    
+    .main-content {
+    padding: 10px;
+    }
+    
+    section {
+    padding: 10px;
+    margin: 10px 0;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+
+        .tooltip {
+         display: inline-block;
+        max-width: 90%;
+        left: calc(100% + 10px);
+        font-weight: 100;
+        font-size: small;
+        }
+    } */
+    @media screen and (max-width: 768px) {
+        .navbar {
+        flex-direction: column;
+        }
+        
+        .navbar a {
+        padding: 10px;
+        }
+        
+        .tooltip {
+        /* max-width: 90%; */
+        left: calc(100% + 10px);
+        padding: auto;
+        
+        }
+        
+        .main-content {
+        padding: 10px;
+        }
+        
+        section {
+        padding: 15px;
+        margin: 10px 0;
+        }
+        }
+    
+    
+    
+    
+    
